@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Planify",
+    "slug": "planify-mobile",
+    "scheme": "planify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFFFFF",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.planify.mobile"
+    },
+    "android": {
+      "package": "com.planify.mobile",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "extra": {
+      "apiUrl": "http://172.16.7.13:5000",
+      "firebase": {
+        "apiKey": "AIzaSyAF4qWz0UExezYcwBr8LAM8AMBJ-IQZxGc",
+        "authDomain": "planify-85968.firebaseapp.com",
+        "projectId": "planify-85968",
+        "storageBucket": "planify-85968.firebasestorage.app",
+        "messagingSenderId": "971300353968",
+        "appId": "1:971300353968:web:75a201f792559c8a8e0875"
+      },
+      "google": {
+        "webClientId": "REPLACE_WITH_GOOGLE_WEB_CLIENT_ID.apps.googleusercontent.com",
+        "iosClientId": "REPLACE_WITH_GOOGLE_IOS_CLIENT_ID.apps.googleusercontent.com",
+        "androidClientId": "REPLACE_WITH_GOOGLE_ANDROID_CLIENT_ID.apps.googleusercontent.com"
+      },
+      "eas": {
+        "projectId": "a98126eb-0a41-4b73-a7c7-9b35070ff103"
+      }
+    }
+  }
+}
