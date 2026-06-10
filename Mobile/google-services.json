@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971300353968",
+    "project_id": "planify-85968",
+    "storage_bucket": "planify-85968.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971300353968:android:2fda97f54286999b8e0875",
+        "android_client_info": {
+          "package_name": "com.planify.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7QjV-cahWvotATbsfCenBjBma1fHAKsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
